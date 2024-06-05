@@ -1,0 +1,50 @@
+
+#background {
+  margin: 10px;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkslategrey;
+}
+
+
+
+h1 {
+  color: ivory;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 10px;
+
+}
+
+.header {
+  width: 100vw;
+}
+
+img {
+  border-radius: 20px;
+  border: 2px solid ivory;
+  height: 200px;
+  box-shadow: 1px 1px 5px ivory;
+}
+
+#head {
+  width: 100%;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  color: ivory;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.section {
+width: 100%
+}
+
+
