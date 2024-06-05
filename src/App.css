@@ -2,6 +2,7 @@
 #background {
   margin: 10px;
   border-radius: 10px;
+  border: 2px solid black;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -55,6 +56,18 @@ width: 100%
 .projects {
   border: 1px solid ivory;
   border-radius: 5px;
+}
+
+.img-modal {
+  height: 1rem;
+}
+
+#capstone {
+  width: 98%;
+}
+
+.project-box {
+  box-shadow: 2px 1px 10px ivory;
 }
 
 
