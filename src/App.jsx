@@ -52,7 +52,6 @@ function App() {
         <nav className="level is-flex mb-3 mt-2">
           <div className="level-item has-text-centered">
             <div>
-            
               <p className="heading"><i class="fa-solid fa-house-chimney-window"></i>&nbsp;Home</p>
               <p className="title is-size-6">Pittsburgh, PA</p>
             </div>
@@ -64,16 +63,17 @@ function App() {
             </div>
           </div>
           <div className="level-item has-text-centered">
-            <div>
+            <a href="https://linkedin.com/in/tobygershon" target="_blank"><div>
               <p className="heading"><i class="fa-brands fa-linkedin"></i>&nbsp;LinkedIn</p>
               <p className="title is-size-6">linkedin.com/in/tobygershon</p>
-            </div>
+            </div></a>
           </div>
           <div className="level-item has-text-centered">
-            <div>
+            <a href="https://github.com/tobygershon" target="_blank"><div>
               <p className="heading"><i class="fa-brands fa-github"></i>&nbsp;GitHub</p>
               <p className="title is-size-6">github.com/tobygershon</p>
             </div>
+            </a>
           </div>
 
         </nav>
