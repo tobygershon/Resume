@@ -28,6 +28,11 @@ img {
   border: 2px solid ivory;
   height: 200px;
   box-shadow: 1px 1px 5px ivory;
+  transition: border 0.2s;
+}
+
+img:hover {
+  border: 4px solid ivory;
 }
 
 #head {
@@ -45,6 +50,11 @@ h2 {
 
 .section {
 width: 100%
+}
+
+.projects {
+  border: 1px solid ivory;
+  border-radius: 5px;
 }
 
 
