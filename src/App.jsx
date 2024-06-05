@@ -85,9 +85,10 @@ function App() {
 
         <div className="column is-one-third is-flex is-align-items-center ml-4 px-6">
 
-          <p className="has-text-weight-semibold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>After over 10 years in optometry practice I am looking for my next challenge. 
-            wanted a more challenging and rewarding career than optometry.  I know that if given an opportunity as a junior developer, I will
-            be driven to elevate my team and grow individually.</strong> </p>
+          <p className="has-text-weight-semibold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>After over 13 years in optometry practice
+             I am looking for my next challenge.  I will use the interpersonal, scientific, and detail-oriented skills that I honed
+              as an optometrist towards a career in software development.  As a former Division 1 athlete I am looking forward to 
+              working as a team player in my new position.</strong> </p>
 
         </div>
 
