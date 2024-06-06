@@ -74,20 +74,20 @@ function App() {
           </div>
           <div className="level-item has-text-centered">
             <a href="https://linkedin.com/in/tobygershon" target="_blank"><div>
-              <p className="heading has-text-white-bis"><i class="fa-brands fa-linkedin"></i>&nbsp;LinkedIn</p>
-              <p className="title has-text-white-bis is-size-6">linkedin.com/in/tobygershon</p>
+              <p className="has-text-white-bis"><i class="fa-brands fa-linkedin"></i>&nbsp;LinkedIn</p>
+              <p className="has-text-white-bis is-size-6">linkedin.com/in/tobygershon</p>
             </div></a>
           </div>
           <div className="level-item has-text-centered">
             <a href="https://github.com/tobygershon" target="_blank"><div>
-              <p className="heading has-text-white-bis"><i class="fa-brands fa-github"></i>&nbsp;GitHub</p>
-              <p className="title has-text-white-bis is-size-6">github.com/tobygershon</p>
+              <p className="has-text-white-bis"><i class="fa-brands fa-github"></i>&nbsp;GitHub</p>
+              <p className="has-text-white-bis is-size-6">github.com/tobygershon</p>
             </div>
             </a>
           </div>
 
         </nav>
-        <h1 className="is-flex is-justify-content-center mb-0 has-text-weight-bold is-size-3 has-text-white-bis">Dr. Toby N Gershon</h1>
+        <h1 className="is-flex is-justify-content-center mb-0 is-size-3 has-text-white-bis">Dr. Toby N Gershon</h1>
       </div>
 
       <div id="head" className="columns is-flex is-justify-content-space-evenly">
@@ -107,7 +107,7 @@ function App() {
         </div>
 
         <div className="column is-one-third is-flex is-flex-direction-column is-justify-content-center mr-4">
-          <div class="tabs is-centered">
+          <div class="tabs is-centered has-text-white-bis">
             <ul>
               <li className={infoToggle === "Education" ? "is-active" : ""}><a onClick={setEducation}>Education</a></li>
               <li className={infoToggle === "Tech" ? "is-active" : ""}><a onClick={setTech}>Tech Stack</a></li>
@@ -115,16 +115,16 @@ function App() {
           </div>
           <div>{infoToggle === "Education" ?
             <ul>
-              <li className="is-size-6 is-flex is-justify-content-space-between"><strong>Tech Elevator - Full stack Java development</strong><span>2024</span></li>
-              <li className="is-size-6 is-flex is-justify-content-space-between"><strong>Salus University - O.D. Optometry</strong><span>2006 - 2010</span></li>
-              <li className="is-size-6 is-flex is-justify-content-space-between"><strong>Univ. of Maryland - B.S. Bio Engineering</strong><span>2000 - 2004</span></li>
+              <li className="is-size-6 is-flex is-justify-content-space-between has-text-white-bis"><span>Tech Elevator - Full stack Java development</span><span>2024</span></li>
+              <li className="is-size-6 is-flex is-justify-content-space-between has-text-white-bis"><span>Salus University - O.D. Optometry</span><span>2006 - 2010</span></li>
+              <li className="is-size-6 is-flex is-justify-content-space-between has-text-white-bis"><span>Univ. of Maryland - B.S. Bio Engineering</span><span>2000 - 2004</span></li>
             </ul>
             :
             <ul>
-              <li className="is-size-6 is-flex is-justify-content-space-between"><strong>Object Oriented Programming&nbsp;&nbsp;</strong><span>Java, C#, Spring Boot</span></li>
-              <li className="is-size-6 is-flex is-justify-content-space-between"><strong>Front End&nbsp;&nbsp;</strong><span>Vue.js, React.js, JavaScript</span></li>
-              <li className="is-size-6 is-flex is-justify-content-space-between"><strong>Database&nbsp;&nbsp;</strong><span>postgreSQL, firebase NoSQL, E/R diagrams</span></li>
-              <li className="is-size-6 is-flex is-justify-content-space-between"><strong>Other&nbsp;&nbsp;</strong><span>Unit and Integration Testing, Git, Responsive Design</span></li>
+              <li className="is-size-6 is-flex is-justify-content-space-between has-text-white-bis"><span>Object Oriented Programming&nbsp;&nbsp;</span><span>Java, C#, Spring Boot</span></li>
+              <li className="is-size-6 is-flex is-justify-content-space-between has-text-white-bis"><span>Front End&nbsp;&nbsp;</span><span>Vue.js, React.js, JavaScript</span></li>
+              <li className="is-size-6 is-flex is-justify-content-space-between has-text-white-bis"><span>Database&nbsp;&nbsp;</span><span>postgreSQL, firebase NoSQL, E/R diagrams</span></li>
+              <li className="is-size-6 is-flex is-justify-content-space-between has-text-white-bis"><span>Other&nbsp;&nbsp;</span><span>Unit and Integration Testing, Git, Responsive Design</span></li>
             </ul>
           }</div>
         </div>
@@ -146,18 +146,18 @@ function App() {
 
             <div className="column is-flex is-flex-direction-column is-justify-content-space-between">
               <div className="mb-5">
-                <p className="heading is-size-6">Current</p>
-                <p className="title is-size-5">Python / OpenAI API</p>
+                <p className="has-text-white-bis is-size-6">Current</p>
+                <p className="has-text-white-bis is-size-5">Python / OpenAI API</p>
               </div>
               <div className="is-flex is align-items-center">
-                <p className="px-4"><strong>I am interested in exploring the potential of implementing AI within personal projects.  I am learning Python in order to use the OpenAI API library.</strong></p>
+                <p className="px-4 has-text-white-bis">I am interested in exploring the potential of implementing AI within personal projects.  I am learning Python in order to use the OpenAI API library.</p>
               </div>
               <div><br /><br /></div>
             </div>
 
             <div className="column">
-              <p className="heading is-size-6">My Bloomborhood - May 2024</p>
-              <p className="title is-size-5">Plant-Share WebApp</p>
+              <p className="is-size-6 has-text-white-bis">My Bloomborhood - May 2024</p>
+              <p className="is-size-5 has-text-white-bis">Plant-Share WebApp</p>
               <div className="is-flex is-flex-direction-column">
 
                 <button onClick={toggleBloomModal} className="button is-small mb-0 mx-6">View in Modal</button>
@@ -173,8 +173,8 @@ function App() {
             </div>
 
             <div className="column">
-              <p className="heading is-size-6">OK 2 Plant - March 2024</p>
-              <p className="title is-size-5">Vegetable Garden Weather Forecaster</p>
+              <p className="is-size-6 has-text-white-bis">OK 2 Plant - March 2024</p>
+              <p className="is-size-5 has-text-white-bis">Vegetable Garden Weather Forecaster</p>
 
               <div className="is-flex is-flex-direction-column">
 
@@ -198,8 +198,8 @@ function App() {
           <div className="columns has-text-centered">
 
             <div className="column">
-              <p className="heading is-size-6">Capstone 1</p>
-              <p className="title is-size-5">NHL Trading Platform</p>
+              <p className="is-size-6 has-text-white-bis">Capstone 1</p>
+              <p className="is-size-5 has-text-white-bis">NHL Trading Platform</p>
               <div className="is-flex is-flex-direction-column">
 
                 <button onClick={togglecs1Modal} className="button is-small mb-0 mx-6">View in Modal</button>
@@ -214,8 +214,8 @@ function App() {
 
             </div>
             <div className="column">
-              <p className="heading is-size-6">Capstone 2</p>
-              <p className="title is-size-5">Peer to Peer Payment App</p>
+              <p className="has-text-white-bis is-size-6">Capstone 2</p>
+              <p className="has-text-white-bis is-size-5">Peer to Peer Payment App</p>
               <div className="is-flex is-flex-direction-column">
 
                 <button onClick={togglecs2Modal} className="button is-small mb-0 mx-6">View in Modal</button>
@@ -229,8 +229,8 @@ function App() {
               </div>
             </div>
             <div className="column">
-              <p className="heading is-size-6">Final Capstone</p>
-              <p className="title is-size-5">City Tour Planner</p>
+              <p className="has-text-white-bis is-size-6">Final Capstone</p>
+              <p className="has-text-white-bis is-size-5">City Tour Planner</p>
               <div className="is-flex is-flex-direction-column">
 
                 <button onClick={togglecs3Modal} className="button is-small mb-0 mx-6">View in Modal</button>
