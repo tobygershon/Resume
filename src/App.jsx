@@ -45,9 +45,19 @@ function App() {
     setInfoToggle("Tech")
   }
 
+  const [projects, setProjects] = useState("Personal")
+
+  function setPersonal() {
+    setProjects("Personal")
+  }
+
+  function setCapstone() {
+    setProjects("Capstone")
+  }
+
   return (
 
-    <section id="background">
+    <section id="background" className="has-background-dark">
       <div className="is-flex is-flex-direction-column header">
         <nav className="level is-flex mb-3 mt-2">
           <div className="level-item has-text-centered">
@@ -86,9 +96,9 @@ function App() {
         <div className="column is-one-third is-flex is-align-items-center ml-4 px-6">
 
           <p className="has-text-weight-semibold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>After over 13 years in optometry practice
-             I am looking for my next challenge.  I will use the interpersonal, scientific, and detail-oriented skills that I honed
-              as an optometrist towards a career in software development.  As a former Division 1 athlete I am looking forward to 
-              working as a team player in my new position.</strong> </p>
+            I am looking for my next challenge.  I will use the interpersonal, scientific, and detail-oriented skills that I honed
+            as an optometrist towards a career in software development.  As a former Division 1 athlete I am looking forward to
+            working as a team player in my new position.</strong> </p>
 
         </div>
 
@@ -121,10 +131,19 @@ function App() {
 
       </div>
 
-      <div className="mx-4 my-6 project-box">
-        <h2 className="has-text-weight-semibold is-size-4 is-uppercase is-underlined">Personal Projects</h2>
-        <div className="section px-2 py-2 mt-2">
+      <div className="project-box my-4 mx-6">
+
+        <div class="tabs is-centered">
+          <ul>
+            <li onClick={setPersonal} className={projects === "Personal" ? "is-active" : ""} ><a>Personal Projects</a></li>
+            <li onClick={setCapstone} className={projects === "Capstone" ? "is-active" : ""} ><a>Capstone Projects</a></li>
+          </ul>
+        </div>
+
+        <div className="">{projects === "Personal" ?
+
           <div className="columns has-text-centered">
+
             <div className="column is-flex is-flex-direction-column is-justify-content-space-between">
               <div className="mb-5">
                 <p className="heading is-size-6">Current</p>
@@ -135,6 +154,7 @@ function App() {
               </div>
               <div><br /><br /></div>
             </div>
+
             <div className="column">
               <p className="heading is-size-6">My Bloomborhood - May 2024</p>
               <p className="title is-size-5">Plant-Share WebApp</p>
@@ -151,6 +171,7 @@ function App() {
                 </div>
               </div>
             </div>
+
             <div className="column">
               <p className="heading is-size-6">OK 2 Plant - March 2024</p>
               <p className="title is-size-5">Vegetable Garden Weather Forecaster</p>
@@ -168,16 +189,14 @@ function App() {
               </div>
 
             </div>
+
           </div>
-        </div>
-      </div>
 
 
+          :
 
-      <div id="capstone" className="my-3 mx-4 project-box">
-        <h2 className="has-text-weight-semibold is-size-4 is-uppercase is-underlined">Capstone Projects</h2>
-        <div className="section px-2 py-2 mt-2">
           <div className="columns has-text-centered">
+
             <div className="column">
               <p className="heading is-size-6">Capstone 1</p>
               <p className="title is-size-5">NHL Trading Platform</p>
@@ -221,17 +240,18 @@ function App() {
                 <figure onClick={togglecs3Modal} class="image is-128x128 is-flex is-align-items-center">
                   <img src="ToursNat.png" />
                 </figure>
-
               </div>
             </div>
           </div>
-        </div>
+
+        }</div>
+
       </div>
 
-      {/* modals */}
+{/* modals */}
 
 
-      <div className={bloomModal ? "modal is-active" : "modal"}>
+      < div className={bloomModal ? "modal is-active" : "modal"} >
         <div onClick={toggleBloomModal} class="modal-background"></div>
         <div class="modal-card">
           <header class="modal-card-head">
@@ -260,7 +280,7 @@ function App() {
             </div>
           </footer>
         </div>
-      </div>
+      </div >
 
       <div className={okModal ? "modal is-active" : "modal"}>
         <div onClick={toggleOkModal} class="modal-background"></div>
@@ -399,7 +419,7 @@ function App() {
       </div>
 
 
-    </section>
+    </section >
 
 
 
