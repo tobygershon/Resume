@@ -295,7 +295,7 @@ function App() {
               <p>- While in bootcamp I produced my own full-stack application from scratch<br />
                 - The forecaster takes in a zip code and predicts ideal spring planting dates based on weather forecasts</p>
               <h4 className="mt-3 mb-3 is-size-5">Tech</h4>
-              <p>- Java/Spring Boot server and back-end<br /> - PostgreSQL database<br /> - HTML, css, vanilla JavaScrip front-end <br />- Utilizes several web API's for data retrieval <br />- Fully functional command line application as well</p>
+              <p>- Java/Spring Boot server and back-end<br /> - PostgreSQL database<br /> - HTML, css, vanilla JavaScrip front-end <br />- Utilizes several web API's for data retrieval <br />- Fully functional command-line application as well</p>
               <h4 className="mt-3 mb-3 is-size-5">Capabilities</h4>
               <p>- The forecaster analyzes local 14 day weather predictions<br /> - Returns crop-specific forecasts based on temperatures <br /> - Returns ideal planting dates based on precipitation forecasts<br /> - User provided email address stored in DB for forecast updates </p>
             </div>
@@ -331,7 +331,7 @@ function App() {
               <h4 className="mt-3 mb-3 is-size-5">Tech</h4>
               <p>- Java object oriented programming<br /> - File reading/writing<br /> - JUnit testing</p>
               <h4 className="mt-3 mb-3 is-size-5">Capabilities</h4>
-              <p>- Trading/waiving players from rosters<br /> - Approving trades based on salary-cap and team size <br /> - Logging transactions<br /> - Reading in files to build rosters</p>
+              <p>- Trading/waiving players from rosters<br /> - Verifying trades based on salary-cap and team size <br /> - Logging transactions<br /> - Reading in files to build rosters</p>
             </div>
             <div className="is-flex is-flex-direction-column is-justify-content-center">
               <figure class="image ">
