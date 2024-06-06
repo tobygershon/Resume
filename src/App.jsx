@@ -255,17 +255,17 @@ function App() {
         <div onClick={toggleBloomModal} class="modal-background"></div>
         <div class="modal-card">
           <header class="modal-card-head  has-background-grey-darker">
-            <p class="modal-card-title">My Bloomborhood</p>
+            <p class="modal-card-title has-text-white-bis">My Bloomborhood</p>
             <button onClick={toggleBloomModal} class="delete" aria-label="close"></button>
           </header>
           <section class="modal-card-body has-background-grey-dark">
             <div className="mb-3">
-              <h4 className="title mb-3 is-size-5">About</h4>
+              <h4 className="mb-3 is-size-5">About</h4>
               <p>- I wanted to learn React.js and gain experience with a NoSQL database.<br />
                 - The web app serves as a platform for locals to share extra plants.</p>
-              <h4 className="title mt-3 mb-3 is-size-5">Tech</h4>
+              <h4 className="mt-3 mb-3 is-size-5">Tech</h4>
               <p>- React.js and Bulma css <br /> - Firebase DB and Auth</p>
-              <h4 className="title mt-3 mb-3 is-size-5">Capabilities</h4>
+              <h4 className="mt-3 mb-3 is-size-5">Capabilities</h4>
               <p>- Login, Auth <br /> - Create and Search Local Posts<br /> - Search Plant Info via web API <br /> - Update User Profiles and Earn 'Share Credits'</p>
             </div>
             <div className="is-flex is-flex-direction-column is-justify-content-center">
@@ -286,17 +286,17 @@ function App() {
         <div onClick={toggleOkModal} class="modal-background"></div>
         <div class="modal-card">
           <header class="modal-card-head has-background-grey-darker">
-            <p class="modal-card-title">The OK 2 Plant Forecaster</p>
+            <p class="modal-card-title has-text-white-bis">The OK 2 Plant Forecaster</p>
             <button onClick={toggleOkModal} class="delete" aria-label="close"></button>
           </header>
           <section class="modal-card-body has-background-grey-dark">
             <div className="mb-3">
-              <h4 className="title mb-3 is-size-5">About</h4>
+              <h4 className="mb-3 is-size-5">About</h4>
               <p>- While in bootcamp I produced my own full-stack application from scratch<br />
                 - The forecaster takes in a zip code and predicts ideal spring planting dates based on weather forecasts</p>
-              <h4 className="title mt-3 mb-3 is-size-5">Tech</h4>
+              <h4 className="mt-3 mb-3 is-size-5">Tech</h4>
               <p>- Java/Spring Boot server and back-end<br /> - PostgreSQL database<br /> - HTML, css, vanilla JavaScrip front-end <br />- Utilizes several web API's for data retrieval <br />- Fully functional command line application as well</p>
-              <h4 className="title mt-3 mb-3 is-size-5">Capabilities</h4>
+              <h4 className="mt-3 mb-3 is-size-5">Capabilities</h4>
               <p>- The forecaster analyzes local 14 day weather predictions<br /> - Returns crop-specific forecasts based on temperatures <br /> - Returns ideal planting dates based on precipitation forecasts<br /> - User provided email address stored in DB for forecast updates </p>
             </div>
             <div className="is-flex is-flex-direction-column is-justify-content-center">
@@ -320,17 +320,17 @@ function App() {
         <div onClick={togglecs1Modal} class="modal-background"></div>
         <div class="modal-card">
           <header class="modal-card-head has-background-grey-darker">
-            <p class="modal-card-title">NHL Trading Platform</p>
+            <p class="modal-card-title has-text-white-bis">NHL Trading Platform</p>
             <button onClick={togglecs1Modal} class="delete" aria-label="close"></button>
           </header>
           <section class="modal-card-body has-background-grey-dark">
             <div className="mb-3">
-              <h4 className="title mb-3 is-size-5">About</h4>
+              <h4 className="mb-3 is-size-5">About</h4>
               <p>- Our first capstone had us work in pairs to produce a Java command-line application<br />
                 - We utilized OOP principles of encapsulation, polymorphism, inheritance, and abstraction</p>
-              <h4 className="title mt-3 mb-3 is-size-5">Tech</h4>
+              <h4 className="mt-3 mb-3 is-size-5">Tech</h4>
               <p>- Java object oriented programming<br /> - File reading/writing<br /> - JUnit testing</p>
-              <h4 className="title mt-3 mb-3 is-size-5">Capabilities</h4>
+              <h4 className="mt-3 mb-3 is-size-5">Capabilities</h4>
               <p>- Trading/waiving players from rosters<br /> - Approving trades based on salary-cap and team size <br /> - Logging transactions<br /> - Reading in files to build rosters</p>
             </div>
             <div className="is-flex is-flex-direction-column is-justify-content-center">
@@ -357,17 +357,17 @@ function App() {
         <div onClick={togglecs2Modal} class="modal-background"></div>
         <div class="modal-card">
           <header class="modal-card-head has-background-grey-darker">
-            <p class="modal-card-title">Peer to Peer Payment App</p>
+            <p class="modal-card-title has-text-whi">Peer to Peer Payment App</p>
             <button onClick={togglecs2Modal} class="delete" aria-label="close"></button>
           </header>
           <section class="modal-card-body has-background-grey-dark">
             <div className="mb-3">
-              <h4 className="title mb-3 is-size-5">About</h4>
+              <h4 className="mb-3 is-size-5">About</h4>
               <p>- Our second capstone had us work in pairs to produce and connect a backend to an already made front-end application<br />
                 - We first designed and built the database, and then build the server and controller using the DAO model </p>
-              <h4 className="title mt-3 mb-3 is-size-5">Tech</h4>
+              <h4 className="mt-3 mb-3 is-size-5">Tech</h4>
               <p>- Java/Spring Boot server and controller<br /> - PostgreSQL database<br />- Integration testing <br /> - Postman <br /> - JSON web tokens</p>
-              <h4 className="title mt-3 mb-3 is-size-5">Capabilities</h4>
+              <h4 className="mt-3 mb-3 is-size-5">Capabilities</h4>
               <p>- Get, Post, Update, Delete methods <br /> - Verified transactions <br /> - Logged suspicious transactions to external web API </p>
             </div>
             <div className="is-flex is-flex-direction-column is-justify-content-center">
@@ -391,17 +391,17 @@ function App() {
         <div onClick={togglecs3Modal} class="modal-background"></div>
         <div class="modal-card">
           <header class="modal-card-head has-background-grey-darker">
-            <p class="modal-card-title">City Tour Planner</p>
+            <p class="modal-card-title has-text-white-bis">City Tour Planner</p>
             <button onClick={togglecs3Modal} class="delete" aria-label="close"></button>
           </header>
           <section class="modal-card-body has-background-grey-dark">
             <div className="mb-3">
-              <h4 className="title mb-3 is-size-5">About</h4>
+              <h4 className="mb-3 is-size-5">About</h4>
               <p>- For our final capstone we worked in groups of 4 to produce a full-stack application<br />
                 - We worked with a mock scrum-master and mock product owner to build our application to their specifications</p>
-              <h4 className="title mt-3 mb-3 is-size-5">Tech</h4>
+              <h4 className="mt-3 mb-3 is-size-5">Tech</h4>
               <p>- Vue.js front-end<br /> - Java/Spring Boot back-end<br />- PostgreSQL database <br />- Integrates several external web API's for data retrieval <br /></p>
-              <h4 className="title mt-3 mb-3 is-size-5">Capabilities</h4>
+              <h4 className="mt-3 mb-3 is-size-5">Capabilities</h4>
               <p>- User authentication/authorization<br /> - Users can search local attractions <br /> - Users can create, update itineraries<br /> - Connecting to Google API's allowed us to render directions and maps with polylines for itinerary routes <br /> - Connecting to Google's geocoder and places API's allowed users to search addresses and places as well as render detailed place information</p>
             </div>
             <div className="is-flex is-flex-direction-column is-justify-content-center">
