@@ -95,10 +95,10 @@ function App() {
 
         <div className="column is-one-third is-flex is-align-items-center ml-4 px-6">
 
-          <p className="has-text-white-bis">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>After over 13 years in optometry practice
+          <p className="has-text-white-bis">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After over 13 years in optometry practice
             I am looking for my next challenge.  I will use the interpersonal, scientific, and detail-oriented skills that I honed
             as an optometrist towards a career in software development.  As a former Division 1 athlete I am looking forward to
-            working as a team player in my new position.</strong> </p>
+            working as a team player in my new position.</p>
 
         </div>
 
@@ -131,7 +131,7 @@ function App() {
 
       </div>
 
-      <div className="project-box my-4 mx-6">
+      <div className="project-box my-4 mx-6 pb-2">
 
         <div class="tabs is-centered">
           <ul>
@@ -156,11 +156,11 @@ function App() {
             </div>
 
             <div className="column">
-              <p className="is-size-6 has-text-white-bis">My Bloomborhood - May 2024</p>
+              <p className="is-size-6 has-text-grey-light">My Bloomborhood - May 2024</p>
               <p className="is-size-5 has-text-white-bis">Plant-Share WebApp</p>
               <div className="is-flex is-flex-direction-column">
 
-                <button onClick={toggleBloomModal} className="button is-small mb-0 mx-6">View in Modal</button>
+                <button onClick={toggleBloomModal} className="button is-small mb-0 mt-2 mx-6">View in Modal</button>
 
                 <div className="column is-flex is-justify-content-center">
 
@@ -173,12 +173,12 @@ function App() {
             </div>
 
             <div className="column">
-              <p className="is-size-6 has-text-white-bis">OK 2 Plant - March 2024</p>
+              <p className="is-size-6 has-text-grey-light">OK 2 Plant - March 2024</p>
               <p className="is-size-5 has-text-white-bis">Vegetable Garden Weather Forecaster</p>
 
               <div className="is-flex is-flex-direction-column">
 
-                <button onClick={toggleOkModal} className="button is-small mb-0 mx-6">View in Modal</button>
+                <button onClick={toggleOkModal} className="button is-small mb-0 mt-2 mx-6">View in Modal</button>
               </div>
               <div className="column is-flex is-justify-content-center">
 
@@ -198,11 +198,11 @@ function App() {
           <div className="columns has-text-centered">
 
             <div className="column">
-              <p className="is-size-6 has-text-white-bis">Capstone 1</p>
+              <p className="is-size-6 has-text-grey-light">Capstone 1</p>
               <p className="is-size-5 has-text-white-bis">NHL Trading Platform</p>
               <div className="is-flex is-flex-direction-column">
 
-                <button onClick={togglecs1Modal} className="button is-small mb-0 mx-6">View in Modal</button>
+                <button onClick={togglecs1Modal} className="button is-small mb-0 mt-2 mx-6">View in Modal</button>
               </div>
               <div className="column is-flex is-justify-content-center">
 
@@ -214,11 +214,11 @@ function App() {
 
             </div>
             <div className="column">
-              <p className="has-text-white-bis is-size-6">Capstone 2</p>
+              <p className="has-text-grey-light is-size-6">Capstone 2</p>
               <p className="has-text-white-bis is-size-5">Peer to Peer Payment App</p>
               <div className="is-flex is-flex-direction-column">
 
-                <button onClick={togglecs2Modal} className="button is-small mb-0 mx-6">View in Modal</button>
+                <button onClick={togglecs2Modal} className="button is-small mb-0 mt-2 mx-6">View in Modal</button>
               </div>
               <div className="column is-flex is-justify-content-center">
 
@@ -229,11 +229,11 @@ function App() {
               </div>
             </div>
             <div className="column">
-              <p className="has-text-white-bis is-size-6">Final Capstone</p>
+              <p className="has-text-grey-light is-size-6">Final Capstone</p>
               <p className="has-text-white-bis is-size-5">City Tour Planner</p>
               <div className="is-flex is-flex-direction-column">
 
-                <button onClick={togglecs3Modal} className="button is-small mb-0 mx-6">View in Modal</button>
+                <button onClick={togglecs3Modal} className="button is-small mb-0 mt-2 mx-6">View in Modal</button>
               </div>
               <div className="column is-flex is-justify-content-center">
 
@@ -254,11 +254,11 @@ function App() {
       < div className={bloomModal ? "modal is-active" : "modal"} >
         <div onClick={toggleBloomModal} class="modal-background"></div>
         <div class="modal-card">
-          <header class="modal-card-head">
+          <header class="modal-card-head  has-background-grey-darker">
             <p class="modal-card-title">My Bloomborhood</p>
             <button onClick={toggleBloomModal} class="delete" aria-label="close"></button>
           </header>
-          <section class="modal-card-body has-background-black-bis">
+          <section class="modal-card-body has-background-grey-dark">
             <div className="mb-3">
               <h4 className="title mb-3 is-size-5">About</h4>
               <p>- I wanted to learn React.js and gain experience with a NoSQL database.<br />
@@ -274,8 +274,8 @@ function App() {
               </figure>
             </div>
           </section>
-          <footer class="modal-card-foot">
-            <div class="buttons">
+          <footer className="modal-card-foot has-background-grey-darker">
+            <div className="buttons">
               <button onClick={toggleBloomModal} class="button">Close</button>
             </div>
           </footer>
@@ -285,11 +285,11 @@ function App() {
       <div className={okModal ? "modal is-active" : "modal"}>
         <div onClick={toggleOkModal} class="modal-background"></div>
         <div class="modal-card">
-          <header class="modal-card-head">
+          <header class="modal-card-head has-background-grey-darker">
             <p class="modal-card-title">The OK 2 Plant Forecaster</p>
             <button onClick={toggleOkModal} class="delete" aria-label="close"></button>
           </header>
-          <section class="modal-card-body">
+          <section class="modal-card-body has-background-grey-dark">
             <div className="mb-3">
               <h4 className="title mb-3 is-size-5">About</h4>
               <p>- While in bootcamp I produced my own full-stack application from scratch<br />
@@ -308,7 +308,7 @@ function App() {
               </figure>
             </div>
           </section>
-          <footer class="modal-card-foot">
+          <footer class="modal-card-foot has-background-grey-darker">
             <div class="buttons">
               <button onClick={toggleOkModal} class="button">Close</button>
             </div>
@@ -319,11 +319,11 @@ function App() {
       <div class={cs1Modal ? "modal is-active" : "modal"}>
         <div onClick={togglecs1Modal} class="modal-background"></div>
         <div class="modal-card">
-          <header class="modal-card-head">
+          <header class="modal-card-head has-background-grey-darker">
             <p class="modal-card-title">NHL Trading Platform</p>
             <button onClick={togglecs1Modal} class="delete" aria-label="close"></button>
           </header>
-          <section class="modal-card-body">
+          <section class="modal-card-body has-background-grey-dark">
             <div className="mb-3">
               <h4 className="title mb-3 is-size-5">About</h4>
               <p>- Our first capstone had us work in pairs to produce a Java command-line application<br />
@@ -345,7 +345,7 @@ function App() {
               </figure>
             </div>
           </section>
-          <footer class="modal-card-foot">
+          <footer class="modal-card-foot has-background-grey-darker">
             <div class="buttons">
               <button onClick={togglecs1Modal} class="button">Close</button>
             </div>
@@ -356,11 +356,11 @@ function App() {
       <div class={cs2Modal ? "modal is-active" : "modal"}>
         <div onClick={togglecs2Modal} class="modal-background"></div>
         <div class="modal-card">
-          <header class="modal-card-head">
+          <header class="modal-card-head has-background-grey-darker">
             <p class="modal-card-title">Peer to Peer Payment App</p>
             <button onClick={togglecs2Modal} class="delete" aria-label="close"></button>
           </header>
-          <section class="modal-card-body">
+          <section class="modal-card-body has-background-grey-dark">
             <div className="mb-3">
               <h4 className="title mb-3 is-size-5">About</h4>
               <p>- Our second capstone had us work in pairs to produce and connect a backend to an already made front-end application<br />
@@ -379,7 +379,7 @@ function App() {
               </figure>
             </div>
           </section>
-          <footer class="modal-card-foot">
+          <footer class="modal-card-foot has-background-grey-darker">
             <div class="buttons">
               <button onClick={togglecs2Modal} class="button">Close</button>
             </div>
@@ -390,11 +390,11 @@ function App() {
       <div class={cs3Modal ? "modal is-active" : "modal"}>
         <div onClick={togglecs3Modal} class="modal-background"></div>
         <div class="modal-card">
-          <header class="modal-card-head">
+          <header class="modal-card-head has-background-grey-darker">
             <p class="modal-card-title">City Tour Planner</p>
             <button onClick={togglecs3Modal} class="delete" aria-label="close"></button>
           </header>
-          <section class="modal-card-body">
+          <section class="modal-card-body has-background-grey-dark">
             <div className="mb-3">
               <h4 className="title mb-3 is-size-5">About</h4>
               <p>- For our final capstone we worked in groups of 4 to produce a full-stack application<br />
@@ -410,7 +410,7 @@ function App() {
               </figure>
             </div>
           </section>
-          <footer class="modal-card-foot">
+          <footer class="modal-card-foot has-background-grey-darker">
             <div class="buttons">
               <button onClick={togglecs3Modal} class="button">Close</button>
             </div>
