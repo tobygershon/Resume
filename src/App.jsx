@@ -57,37 +57,37 @@ function App() {
 
   return (
 
-    <section id="background" className="has-background-dark">
+    <section id="background" className="has-background-dark has-text-white-bis">
       <div className="is-flex is-flex-direction-column header">
         <nav className="level is-flex mb-3 mt-2">
           <div className="level-item has-text-centered">
             <div>
-              <p className="heading"><i class="fa-solid fa-house-chimney-window"></i>&nbsp;Home</p>
-              <p className="title is-size-6">Pittsburgh, PA</p>
+              <p className="has-text-white-bis"><i class="fa-solid fa-house-chimney-window"></i>&nbsp;Home</p>
+              <p className="has-text-white-bis is-size-6">Pittsburgh, PA</p>
             </div>
           </div>
           <div className="level-item has-text-centered">
             <div>
-              <p className="heading"><i class="fa-regular fa-envelope"></i>&nbsp;Email</p>
-              <p className="title is-size-6">TobyGershon@gmail.com</p>
+              <p className="has-text-white-bis"><i class="fa-regular fa-envelope"></i>&nbsp;Email</p>
+              <p className="has-text-white-bis is-size-6">TobyGershon@gmail.com</p>
             </div>
           </div>
           <div className="level-item has-text-centered">
             <a href="https://linkedin.com/in/tobygershon" target="_blank"><div>
-              <p className="heading"><i class="fa-brands fa-linkedin"></i>&nbsp;LinkedIn</p>
-              <p className="title is-size-6">linkedin.com/in/tobygershon</p>
+              <p className="heading has-text-white-bis"><i class="fa-brands fa-linkedin"></i>&nbsp;LinkedIn</p>
+              <p className="title has-text-white-bis is-size-6">linkedin.com/in/tobygershon</p>
             </div></a>
           </div>
           <div className="level-item has-text-centered">
             <a href="https://github.com/tobygershon" target="_blank"><div>
-              <p className="heading"><i class="fa-brands fa-github"></i>&nbsp;GitHub</p>
-              <p className="title is-size-6">github.com/tobygershon</p>
+              <p className="heading has-text-white-bis"><i class="fa-brands fa-github"></i>&nbsp;GitHub</p>
+              <p className="title has-text-white-bis is-size-6">github.com/tobygershon</p>
             </div>
             </a>
           </div>
 
         </nav>
-        <h1 className="is-flex is-justify-content-center mb-0 has-text-weight-bold is-size-3">Dr. Toby N Gershon</h1>
+        <h1 className="is-flex is-justify-content-center mb-0 has-text-weight-bold is-size-3 has-text-white-bis">Dr. Toby N Gershon</h1>
       </div>
 
       <div id="head" className="columns is-flex is-justify-content-space-evenly">
@@ -95,7 +95,7 @@ function App() {
 
         <div className="column is-one-third is-flex is-align-items-center ml-4 px-6">
 
-          <p className="has-text-weight-semibold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>After over 13 years in optometry practice
+          <p className="has-text-white-bis">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>After over 13 years in optometry practice
             I am looking for my next challenge.  I will use the interpersonal, scientific, and detail-oriented skills that I honed
             as an optometrist towards a career in software development.  As a former Division 1 athlete I am looking forward to
             working as a team player in my new position.</strong> </p>
