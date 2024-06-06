@@ -258,7 +258,7 @@ function App() {
             <p class="modal-card-title">My Bloomborhood</p>
             <button onClick={toggleBloomModal} class="delete" aria-label="close"></button>
           </header>
-          <section class="modal-card-body">
+          <section class="modal-card-body has-background-black-bis">
             <div className="mb-3">
               <h4 className="title mb-3 is-size-5">About</h4>
               <p>- I wanted to learn React.js and gain experience with a NoSQL database.<br />
