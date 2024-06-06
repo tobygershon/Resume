@@ -156,7 +156,7 @@ function App() {
             </div>
 
             <div className="column">
-              <p className="is-size-6 has-text-grey-light">My Bloomborhood - May 2024</p>
+              <p className="is-size-6 has-text-grey-light"><a href="http://bloomborhood.netlify.app" target="_blank">My Bloomborhood</a> - May 2024</p>
               <p className="is-size-5 has-text-white-bis">Plant-Share WebApp</p>
               <div className="is-flex is-flex-direction-column">
 
@@ -164,8 +164,8 @@ function App() {
 
                 <div className="column is-flex is-justify-content-center">
 
-                  <figure onClick={toggleBloomModal} class="image is-128x128 is-flex is-align-items-center">
-                    <img src="OK2PlantPage.png" />
+                  <figure onClick={toggleBloomModal} class="image is-flex is-align-items-center">
+                    <img className="project" src="bloomborhood.png" />
                   </figure>
 
                 </div>
@@ -182,8 +182,8 @@ function App() {
               </div>
               <div className="column is-flex is-justify-content-center">
 
-                <figure onClick={toggleOkModal} class="image is-128x128 is-flex is-align-items-center">
-                  <img src="OK2PlantPage.png" />
+                <figure onClick={toggleOkModal} class="image is-flex is-align-items-center">
+                  <img className="project" src="OK2PlantPage.png" />
                 </figure>
 
               </div>
@@ -206,8 +206,8 @@ function App() {
               </div>
               <div className="column is-flex is-justify-content-center">
 
-                <figure onClick={togglecs1Modal} class="image is-128x128 is-flex is-align-items-center">
-                  <img src="TradingCLI.png" />
+                <figure onClick={togglecs1Modal} class="image is-flex is-align-items-center">
+                  <img className="project" src="TradingCLI.png" />
                 </figure>
 
               </div>
@@ -222,8 +222,8 @@ function App() {
               </div>
               <div className="column is-flex is-justify-content-center">
 
-                <figure onClick={togglecs2Modal} class="image is-128x128 is-flex is-align-items-center">
-                  <img src="TEbucksHome.png" />
+                <figure onClick={togglecs2Modal} class="image is-flex is-align-items-center">
+                  <img className="project" src="TEbucksHome.png" />
                 </figure>
 
               </div>
@@ -237,8 +237,8 @@ function App() {
               </div>
               <div className="column is-flex is-justify-content-center">
 
-                <figure onClick={togglecs3Modal} class="image is-128x128 is-flex is-align-items-center">
-                  <img src="ToursNat.png" />
+                <figure onClick={togglecs3Modal} class="image is-flex is-align-items-center">
+                  <img className="project" src="ToursNat.png" />
                 </figure>
               </div>
             </div>
@@ -261,7 +261,7 @@ function App() {
           <section class="modal-card-body has-background-grey-dark">
             <div className="mb-3">
               <h4 className="mb-3 is-size-5">About</h4>
-              <p>- I wanted to learn React.js and gain experience with a NoSQL database.<br />
+              <p><a href="http://bloomborhood.netlify.app" target="_blank"> - bloomborhood.netlify.app</a><br />- I wanted to learn React.js and gain experience with a NoSQL database.<br />
                 - The web app serves as a platform for locals to share extra plants.</p>
               <h4 className="mt-3 mb-3 is-size-5">Tech</h4>
               <p>- React.js and Bulma css <br /> - Firebase DB and Auth</p>
@@ -270,7 +270,7 @@ function App() {
             </div>
             <div className="is-flex is-flex-direction-column is-justify-content-center">
               <figure class="image ">
-                <img className="" src="OK2PlantPage.png" />
+                <img className="" src="bloomborhood.png" />
               </figure>
             </div>
           </section>
