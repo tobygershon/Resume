@@ -90,7 +90,7 @@ function App() {
         <h1 className="is-flex is-justify-content-center mb-0 is-size-3 has-text-white-bis">Dr. Toby N Gershon</h1>
       </div>
 
-      <div id="head" className="columns is-flex is-justify-content-space-evenly">
+      <div id="head" className="columns">
 
 
         <div className="column is-one-third is-flex is-align-items-center ml-4 px-6">
